@@ -5,7 +5,7 @@
 int main(int argc, char **argv) {
     double serial;
 
-    if (argc != 2 || strtod(argv[1], NULL) == 0.0) {
+    if (argc != 2) {
         printf("Invalid arguments.\n");
         return -1;
     }
